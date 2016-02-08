@@ -1,0 +1,28 @@
+{
+  "name": "stockfighter",
+  "version": "1.0.0",
+  "description": "Personal Code for the Stockfighter game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herman-rogers/stockfighter.git"
+  },
+  "author": "Boomer Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herman-rogers/stockfighter/issues"
+  },
+  "homepage": "https://github.com/herman-rogers/stockfighter#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "jest": "^0.1.40"
+  },
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "request-promise": "^2.0.0"
+  }
+}
