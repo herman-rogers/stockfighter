@@ -11,7 +11,6 @@ module.exports = {
 
     getOrderBook: function(venue, stockSymbol) {
         var uri = 'https://api.stockfighter.io/ob/api/venues/' + venue + '/stocks/' + stockSymbol;
-
         console.log('-order book-');
 
         return this.requestData(uri);
